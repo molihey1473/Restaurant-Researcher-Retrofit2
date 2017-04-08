@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.roy1473.restaurantexamle">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".OsakaArea" />
+        <activity android:name=".Osakas.UmedaAreaActivity" />
+        <activity android:name=".Osakas.FukushimaAreaActivity" />
+        <activity android:name=".Osakas.YodoyabashiAreaActivity" />
+        <activity android:name=".Osakas.KyobashiAreaActivity" />
+        <activity android:name=".Osakas.ShinsaibashiAreaActivity" />
+        <activity android:name=".Osakas.TennojiAreaActivity" />
+        <activity android:name=".Osakas.TsuruhashiAreaActivity" />
+        <activity android:name=".Osakas.NagaiAreaActivity" />
+        <activity android:name=".Osakas.SekimeAreaActivity" />
+        <activity android:name=".Osakas.OsakaCityAreaActivity" />
+        <activity android:name=".Osakas.SakaiAreaActivity" />
+        <activity android:name=".Osakas.TakatsukiAreaActivity" />
+        <activity android:name=".Osakas.IbarakiAreaActivity" />
+        <activity android:name=".Osakas.KishiwadaAreaActivity" />
+        <activity android:name=".Osakas.MatsubaraAreaActivity" />
+        <activity android:name=".Osakas.EsakaAreaActivity" />
+        <activity android:name=".Osakas.HigashiOsakaAreaActivity" />
+        <activity android:name=".Osakas.KujoAreaActivity" />
+        <activity android:name=".Osakas.HirakataAreaActivity" />
+        <activity android:name=".Osakas.OsakaSonotaAreaActivity" />
+        <activity android:name=".Osakas.MinoAreaActivity"></activity>
+    </application>
+
+</manifest>
