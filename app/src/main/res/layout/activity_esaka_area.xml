@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.roy1473.restaurantexamle.Osakas.EsakaAreaActivity">
+    tools:context="com.example.roy1473.restaurantexamle.com.example.roy1473.restaurantexample.Osakas.EsakaAreaActivity">
 
 
 
