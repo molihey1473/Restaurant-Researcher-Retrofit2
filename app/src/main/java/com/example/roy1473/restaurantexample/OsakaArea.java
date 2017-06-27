@@ -174,5 +174,7 @@ public class OsakaArea extends AppCompatActivity implements ListView.OnItemClick
                 break;
         }
 
+        finish();
+
     }
 }

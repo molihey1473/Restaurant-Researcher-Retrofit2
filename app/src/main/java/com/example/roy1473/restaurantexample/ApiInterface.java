@@ -14,7 +14,7 @@ import retrofit2.http.Query;
  */
 
 public interface ApiInterface {
-    String END_POINT = "http://webservice.recruit.co.jp/";
+    String END_POINT = "http://webservice.recruit.co.jp";
     @GET("/hotpepper/gourmet/v1/")
     Call<GourmetData> getGourmet(@Query("key") String key, @Query("middle_area") String area,
                                @Query("format") String format
