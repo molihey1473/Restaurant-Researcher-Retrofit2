@@ -7,10 +7,6 @@
     tools:context="com.example.roy1473.restaurantexample.Osakas.TennojiAreaActivity">
 
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
 
 
         <LinearLayout
@@ -28,8 +24,6 @@
 
         </LinearLayout>
 
-
-    </ScrollView>
 
 
 </android.support.constraint.ConstraintLayout>

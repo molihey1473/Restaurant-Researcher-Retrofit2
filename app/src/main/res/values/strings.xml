@@ -2,4 +2,18 @@
     <string name="app_name">RestaurantExamle</string>
     <string name="drawer_open">Drawer_Open</string>
     <string name="drawer_close">Drawer_Close</string>
+    <string name="textView">"TextView"</string>
+    <string name="address">"住所"</string>
+    <string name="access">"アクセス："</string>
+    <string name="dayTime">"営業時間、曜日："</string>
+    <string name="dayOff">"定休日："</string>
+    <string name="enviroment">"通信環境、Wi-Fi:"</string>
+    <string name="privateRoom">"個室："</string>
+    <string name="budget">予算：</string>
+    <string name="creditCard">"クレジットカード："</string>
+    <string name="memo">"メモ："</string>
+    <string name="url">"お店URL："</string>
+    <string name="backButton">"戻る"</string>
+
+
 </resources>

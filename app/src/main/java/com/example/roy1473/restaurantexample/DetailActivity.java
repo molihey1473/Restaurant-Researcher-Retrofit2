@@ -3,6 +3,8 @@ package com.example.roy1473.restaurantexample;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -23,6 +25,7 @@ public class DetailActivity extends AppCompatActivity {
     TextView about;
     TextView url;
     TextView budget;
+    Button backButton;
 
 
 
@@ -43,6 +46,7 @@ public class DetailActivity extends AppCompatActivity {
         about= (TextView)findViewById(R.id.about);
         url = (TextView)findViewById(R.id.url);
         budget = (TextView)findViewById(R.id.budget);
+        backButton = (Button)findViewById(R.id.backButton);
 
 
         Intent intent = getIntent();
@@ -76,6 +80,12 @@ public class DetailActivity extends AppCompatActivity {
 
         Picasso.with(getApplicationContext()).load(photoText).into(photos);
 
+
+
+    }
+
+    public void onBackButtonTapped(View view){
+        finish();
     }
 
 
