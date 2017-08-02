@@ -18,28 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.roy1473.restaurantexample.DetailActivity" />
-        <activity android:name="com.example.roy1473.restaurantexample.OsakaArea" />
-        <activity android:name="com.example.roy1473.restaurantexample.Osakas.UmedaAreaActivity" />
-        <activity android:name="com.example.roy1473.restaurantexample.Osakas.FukushimaAreaActivity" />
-        <activity android:name="com.example.roy1473.restaurantexample.Osakas.YodoyabashiAreaActivity" />
-        <activity android:name="com.example.roy1473.restaurantexample.Osakas.KyobashiAreaActivity" />
-        <activity android:name="com.example.roy1473.restaurantexample.Osakas.TennojiAreaActivity" />
-        <activity android:name="com.example.roy1473.restaurantexample.Osakas.TsuruhashiAreaActivity" />
-        <activity android:name="com.example.roy1473.restaurantexample.Osakas.NagaiAreaActivity" />
-        <activity android:name="com.example.roy1473.restaurantexample.Osakas.SekimeAreaActivity" />
-        <activity android:name="com.example.roy1473.restaurantexample.Osakas.OsakaCityAreaActivity" />
-        <activity android:name="com.example.roy1473.restaurantexample.Osakas.SakaiAreaActivity" />
-        <activity android:name="com.example.roy1473.restaurantexample.Osakas.TakatsukiAreaActivity" />
-        <activity android:name="com.example.roy1473.restaurantexample.Osakas.IbarakiAreaActivity" />
-        <activity android:name="com.example.roy1473.restaurantexample.Osakas.KishiwadaAreaActivity" />
-        <activity android:name="com.example.roy1473.restaurantexample.Osakas.MatsubaraAreaActivity" />
-        <activity android:name="com.example.roy1473.restaurantexample.Osakas.EsakaAreaActivity" />
-        <activity android:name="com.example.roy1473.restaurantexample.Osakas.HigashiOsakaAreaActivity" />
-        <activity android:name="com.example.roy1473.restaurantexample.Osakas.KujoAreaActivity" />
-        <activity android:name="com.example.roy1473.restaurantexample.Osakas.HirakataAreaActivity" />
-        <activity android:name="com.example.roy1473.restaurantexample.Osakas.OsakaSonotaAreaActivity" />
-        <activity android:name="com.example.roy1473.restaurantexample.Osakas.MinoAreaActivity"></activity>
+
     </application>
 
 </manifest>
