@@ -25,9 +25,6 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-/**
- * Created by Roy1473 on 2017/07/31.
- */
 
 public class Area5 extends Fragment {
 
@@ -56,10 +53,10 @@ public class Area5 extends Fragment {
     }
 
     private void getGourmetData(){
-        String shinsaibashiCode = "Y315";
+        String areaCode5 = "Y315";
         String json = "json";
         final Call<GourmetData> requestData = rManager.getApiInterface().getGourmet("a2e960081c3ba832",
-                shinsaibashiCode, json);
+                areaCode5, json);
 
         requestData.enqueue(new Callback<GourmetData>() {
             @Override

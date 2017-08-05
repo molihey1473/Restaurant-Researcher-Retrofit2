@@ -52,10 +52,10 @@ public class Area11 extends Fragment {
     }
 
     private void getGourmetData(){
-        String shinsaibashiCode = "Y350";
+        String areaCode11 = "Y350";
         String json = "json";
         final Call<GourmetData> requestData = rManager.getApiInterface().getGourmet("a2e960081c3ba832",
-                shinsaibashiCode, json);
+                areaCode11, json);
 
         requestData.enqueue(new Callback<GourmetData>() {
             @Override
