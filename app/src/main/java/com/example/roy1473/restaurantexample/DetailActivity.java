@@ -8,7 +8,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.roy1473.restaurantexamle.R;
 import com.squareup.picasso.Picasso;
 
 public class DetailActivity extends Fragment {
@@ -89,10 +88,6 @@ public class DetailActivity extends Fragment {
 
         return view;
 
-
-
     }
-
-
 
 }

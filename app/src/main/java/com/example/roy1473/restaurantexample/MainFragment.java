@@ -13,7 +13,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.example.roy1473.restaurantexamle.R;
 import com.example.roy1473.restaurantexample.Models.GourmetData;
 import com.example.roy1473.restaurantexample.Models.Shop;
 

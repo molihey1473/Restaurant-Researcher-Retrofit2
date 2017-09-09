@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">RestaurantExamle</string>
+    <string name="app_name">RestaurantExample</string>
     <string name="drawer_open">Drawer_Open</string>
     <string name="drawer_close">Drawer_Close</string>
     <string name="textView">"TextView"</string>

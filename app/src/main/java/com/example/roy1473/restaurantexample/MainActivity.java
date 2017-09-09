@@ -15,7 +15,6 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.example.roy1473.restaurantexamle.R;
 import com.example.roy1473.restaurantexample.Areas.Area1;
 import com.example.roy1473.restaurantexample.Areas.Area10;
 import com.example.roy1473.restaurantexample.Areas.Area11;
