@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.roy1473.restaurantexample.DetailActivity">
+    tools:context=".DetailActivity">
 
 
     <ScrollView
@@ -66,7 +66,7 @@
 
             <TextView
                 android:id="@+id/address"
-                android:layout_width="368dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/textView"
                 android:textColor="@android:color/black"
