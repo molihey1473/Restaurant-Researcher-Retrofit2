@@ -37,12 +37,13 @@ public class MainFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
-    {
+    {super.onCreateView(inflater, container, savedInstanceState);
         return inflater.inflate(R.layout.activity_main_fragment, container, false);
 
     }
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState){
+        super.onViewCreated(view, savedInstanceState);
         listView = (ListView)view.findViewById(R.id.listViewFragment);
         rManager = new ServiceManager();
         getGourmetData();
@@ -55,7 +56,7 @@ public class MainFragment extends Fragment {
 
 
         String json = "json";
-        final Call<GourmetData> requestData = rManager.getApiInterface().getGourmet("a2e960081c3ba832",
+        final Call<GourmetData> requestData = rManager.getApiInterface().getGourmet("your_own_token",
                 areaCodeMain, json);
 
         requestData.enqueue(new Callback<GourmetData>() {
