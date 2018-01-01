@@ -6,14 +6,10 @@ package com.example.roy1473.restaurantresearcher.Models;
 
 public class GourmetData {
     public Results results;
-    public Photo photo;
 
     public GourmetData(Results results){
         this.results = results;
     }
 
-    public GourmetData(Photo photo){
-        this.photo = photo;
-    }
 
 }
